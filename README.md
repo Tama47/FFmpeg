@@ -1,6 +1,6 @@
 # FFmpeg
 
-### Input:
+### Input
 ```bash
 ffmpeg -i 
 ```
