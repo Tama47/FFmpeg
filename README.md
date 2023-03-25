@@ -13,7 +13,11 @@ Trim:
 ```bash
 -ss  -to 
 ```
-Convert to MP3:
+Offset:
+```bash
+-itsoffset
+```
+Output MP3:
 ```bash
 ~/Downloads/theme.mp3
 ```
