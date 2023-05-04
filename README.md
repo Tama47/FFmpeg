@@ -34,7 +34,7 @@ Output Video (re-encode):
 -async 1 ~/Downloads/output.mp4
 ```
 
-### Anime4k Upscale
+### Anime4k Upscale ([Shaders](https://github.com/mpv-player/mpv/files/11138365/shaders.zip))
 For CPU encoding:
 ```
 ffmpeg -y -vsync 0 -i "input.mp4" -init_hw_device vulkan -vf format=yuv420p10,hwupload,libplacebo=w=3840:h=2160:upscaler=ewa_lanczos:custom_shader_path=shaders/Anime4K_ModeA.glsl,hwdownload,format=yuv420p10 "output.mp4"
